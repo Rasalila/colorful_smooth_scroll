@@ -14,43 +14,66 @@
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <header class="hero-section">
-      <img src="./assets/img/hero.png" alt="hero" class="hero" />
+		<div class="wrapper">
+			<div class="content">
 
-      <div class="container">
-        <div class="main-header">
-          <h1 class="main-title">creative scroll</h1>
-        </div>
-      </div>
-    </header>
+				<header class="hero-section">
+					<img data-speed=".6" src="./assets/img/hero.png" alt="hero" class="hero" />
+		
+					<div class="container"> <!-- сетка -->
+						<div data-speed=".75" class="main-header">
+							<h1 class="main-title">creative scroll</h1>
+						</div>
+					</div>
+				</header>
+		
+				<div class="portfolio">
+					<div class="container"> <!-- сетка -->
+		
+						<div class="gallery">
+		
+							<div data-speed=".9" class="gallery__left">
+								<img src="./assets/img/work/1.jpg" alt="1" class="gallery__item" />
+								<img src="./assets/img/work/2.jpg" alt="2" class="gallery__item" />
+		
+								<div class="text-block gallery__item">
+									<h2 class="text-block__h">
+										Creative floating scroll with amazing parallax effect
+									</h2>
+									<p class="text-block__p">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Quibusdam nesciunt perferendis reprehenderit doloribus
+										dignissimos!
+									</p>
+								</div>
+		
+								<img src="./assets/img/work/6.jpg" alt="6" class="gallery__item" />
+		
+							</div>
+		
+							<div data-speed="1.1" class="gallery__right">
+		
+								<div class="text-block gallery__item">
+									<h2 class="text-block__h">
+										Creative floating scroll with amazing parallax effect
+									</h2>
+									<p class="text-block__p">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Quibusdam nesciunt perferendis reprehenderit doloribus
+										dignissimos!
+									</p>
+								</div>
+		
+								<img src="./assets/img/work/4.jpg" alt="4" class="gallery__item" />
+								<img src="./assets/img/work/5.jpg" alt="5" class="gallery__item" />
+								<img src="./assets/img/work/3.jpg" alt="3" class="gallery__item" />
+		
+							</div>
+						</div>
+					</div>
+				</div>
 
-    <div class="portfolio">
-      <div class="container">
-        <!-- сетка -->
-        <div class="gallery">
-          <div class="gallery__left">
-            <img src="./assets/img/work/1.jpg" alt="1" class="gallery__item" />
-            <img src="./assets/img/work/2.jpg" alt="2" class="gallery__item" />
-          </div>
-
-          <div class="gallery__right">
-            <div class="text-block gallery__item">
-              <h2 class="text-block__h">
-                Creative floating scroll with amazing parallax effect
-              </h2>
-              <p class="text-block__p">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quibusdam nesciunt perferendis reprehenderit doloribus
-                dignissimos!
-              </p>
-            </div>
-
-            <img src="./assets/img/work/3.jpg" alt="3" class="gallery__item" />
-            <img src="./assets/img/work/4.jpg" alt="4" class="gallery__item" />
-            <img src="./assets/img/work/5.jpg" alt="5" class="gallery__item" />
-          </div>
-        </div>
-      </div>
-    </div>
+			</div>
+		</div>
   </body>
 </html>
